@@ -1,9 +1,8 @@
 # --- Streamlit UI ---
 streamlit==1.41.1
 
-# --- Web framework (backend) ---
+# --- Core dependencies (backend logic) ---
 fastapi==0.115.6
-uvicorn[standard]==0.34.0
 pydantic==2.10.4
 pydantic-settings==2.7.1
 python-dotenv==1.0.1
@@ -12,9 +11,9 @@ httpx==0.28.1
 # --- Vector search (Tier 1: "The Net") ---
 qdrant-client==1.12.1
 
-# --- Embeddings (local, no API latency) ---
-fastembed==0.5.1
-onnxruntime==1.20.1
+# --- Embeddings (local, no API latency) - Python 3.13+ compatible ---
+fastembed==0.6.0
+onnxruntime==1.27.0
 
 # --- Reranker (Tier 2) fallback / feature engineering ---
 scikit-learn==1.6.0
