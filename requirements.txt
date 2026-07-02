@@ -1,2 +1,24 @@
--r backend/requirements.txt
+# --- Streamlit UI ---
 streamlit==1.41.1
+
+# --- Web framework (backend) ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.1
+python-dotenv==1.0.1
+httpx==0.28.1
+
+# --- Vector search (Tier 1: "The Net") ---
+qdrant-client==1.12.1
+
+# --- Embeddings (local, no API latency) ---
+fastembed==0.5.1
+onnxruntime==1.20.1
+
+# --- Reranker (Tier 2) fallback / feature engineering ---
+scikit-learn==1.6.0
+numpy==1.26.4
+
+# --- Summarization (Tier 3: "The Polish") ---
+groq==0.13.1
