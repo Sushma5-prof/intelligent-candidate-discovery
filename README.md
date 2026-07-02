@@ -19,4 +19,4 @@ Built for sub-2.5 second latency, Kinetix uses a decoupled **Two-Stage Retrieval
 * **Explainability Dashboard:** Generates a 2-sentence AI justification for every ranked candidate.
 * **Blind Audition Mode:** A single toggle to mathematically strip all PII (names, gender, etc.) to eliminate unconscious bias.
 
-###[Check out the App](https://intelligent-candidate-discovery-pjkmqsiz3tzkkmanvcep4d.streamlit.app/)
+[Intelligent Candidate Discovery](https://intelligent-candidate-discovery-pjkmqsiz3tzkkmanvcep4d.streamlit.app/)
